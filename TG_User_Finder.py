@@ -37,10 +37,10 @@ def list_checker():
             print ("Null")
 
 if __name__ == '__main__':
-    phone = 'Your TG Number'
-    client = TelegramClient(phone, API ID, 'API Hash')
+    phone = '+18329609455'
+    client = TelegramClient(+18329609455, 24879355, 65833778bf5f548cea6118392ed38c6f')
     client.connect()
     if not client.is_user_authorized():
-        client.send_code_request(phone)
-        client.sign_in(phone, input('Enter the code: '))
+        client.send_code_request()
+        client.sign_in(+16467990790 input('Enter the code: '))
     list_checker()
